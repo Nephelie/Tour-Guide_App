@@ -1,0 +1,73 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CategoryTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+        <item name="tabBackground">@color/lightColor</item>
+        <item name="tabTextAppearance">@style/CategoryTabTextAppearance</item>
+    </style>
+
+    <style name="CategoryTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">#A8A19E</item>
+    </style>
+
+    <style name="Description_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:gravity">top</item>
+        <item name="android:textAppearance">?android:textAppearanceSmall</item>
+        <item name="android:textColor">@color/description_TextView_color</item>
+    </style>
+
+    <style name="NameOfThePlace_TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">bottom</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+        <item name="android:textColor">@color/nameOfThePlace_TextView_color</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="LinearLayout_listItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:layout_toRightOf">@+id/image</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="ImageView_listItem">
+        <item name="android:contentDescription">@string/picture_of_the_location</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">6dp</item>
+        <item name="android:layout_width">@dimen/list_item_width</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+    </style>
+
+    <style name="RelativeLayout_listItem">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">100dp</item>
+        <item name="android:background">@android:color/white</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:minHeight">100dp</item>
+    </style>
+
+    <style name="FloatingActionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">end|bottom</item>
+        <item name="android:layout_margin">16dp</item>
+    </style>
+
+</resources>
